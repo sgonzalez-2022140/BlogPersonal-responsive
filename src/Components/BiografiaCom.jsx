@@ -6,13 +6,13 @@ import { Container, Row, Col, Card } from 'react-bootstrap';
 export const BiografiaCom = () => {
     return (
         <StyledMe>
-          <Container className="d-flex justify-content-center align-items-center"style={{ maxWidth: "80vw" }}>
+          <Container className="d-flex justify-content-center align-items-center mr-8"style={{ maxWidth: "70vw" }}>
             <Card >
               <Card.Body>
-                <Row className="">
+                <Row className="mt-0">
                   {/* left side */}
-                  <Col md={6} className="mr-3">
-                    <div>
+                  <Col ml={6} >
+                    
                       <h1 className="yo">Santiago González</h1>
                       <p className="informatica">Estudiante de Informatica</p>
                       <p className="contenido">Bienvenidos a mi blog, un espacio dedicado a compartir mi  viaje de aprendizaje en el mundo de la programación en kinal. 
@@ -21,11 +21,11 @@ export const BiografiaCom = () => {
                         Lo más impresionante de 
                         cada tarea ha sido una oportunidad para poner en práctica mis habilidades y expandir mi conocimiento en diversas áreas técnicas
                       </p>
-                    </div>
+                    
                   </Col>
                   {/* right side */}
-                  <Col md={5}>
-                    <Card.Img variant="top" src={foto} alt="Santiago" className="rounded-2xl" style={{ maxWidth: "400px" }}/>
+                  <Col lg={5}>
+                    <Card.Img variant="top" src={foto} alt="Santiago" className="rounded-2xl" style={{ maxWidth: "800px" }}/>
                   </Col>
                 </Row>
               </Card.Body>
