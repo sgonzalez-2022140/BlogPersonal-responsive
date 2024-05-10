@@ -1,4 +1,5 @@
-import React from "react";
+import { useState } from "react";
+import { useNavigate } from 'react-router-dom';
 import styled, { keyframes } from "styled-components";
 
 const StyledNavbar = styled.nav`
@@ -19,9 +20,16 @@ const StyledNavbar = styled.nav`
 `;
 
 export const Navbar = () => {
+  const navigate = useNavigate()
+
+
+  const goToMenu = (ruta)=>{
+    navigate(ruta)
+}
+
   return (
     <StyledNavbar>
-      <h1>Blog de Santiago González</h1>
+      <h1 onClick={() => goToMenu('/')}>Blog de Santiago González</h1>
     </StyledNavbar>
   )
 };

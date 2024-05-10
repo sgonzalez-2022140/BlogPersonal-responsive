@@ -1,18 +1,16 @@
 import { useState } from 'react'
-import {Navbar} from './Components/Navbar'
-import { Content } from './Components/Content'
 import { Biografia } from './Pages/Biografia'
 import "./App.css"
+import { useRoutes } from "react-router-dom"
+import { routes } from "./routes"
 
 function App() {
-  const [count, setCount] = useState(0)
+  const routesElements = useRoutes(routes)
 
   return (
     <>
       <div className='main-content'>
-        <Navbar/>
-        <Content/>
-        <Biografia/>
+        {routesElements}
       </div>
       
     </>
