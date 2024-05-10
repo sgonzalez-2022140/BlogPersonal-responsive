@@ -19,8 +19,17 @@ export const BiografiaCom = () => {
                         <br />
                         <br />
                         Lo más impresionante de 
-                        cada tarea ha sido una oportunidad para poner en práctica mis habilidades y expandir mi conocimiento en diversas áreas técnicas
+                        cada tarea ha sido una oportunidad para poner en práctica mis habilidades y expandir mi conocimiento en diversas áreas técnicas.
+                        <br />
+                        <br />
+                        Las materias a las cuales les dare énfasis en mi Blog seran: 
+                        <span> Taller, Tecnología y Practica supervisada</span>
+                      
+                      <br />
+                      <br />
+                        (DAR CLICK EN LOS BOTONES PARA CAMBIAR EL ELEMENTO)
                       </p>
+                      
                     
                   </Col>
                   {/* right side */}
@@ -47,6 +56,11 @@ export const BiografiaCom = () => {
       .yo{
         font-family: 'georgia';
         font-weight: bold; 
+      }
+
+      span{
+            font-weight: 600;
+            color: #07326b;        
       }
 
       .informatica{
