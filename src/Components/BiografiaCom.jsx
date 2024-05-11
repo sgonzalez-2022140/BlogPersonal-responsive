@@ -13,8 +13,8 @@ export const BiografiaCom = ({ handleMaterias }) => {
               {/* left side */}
               <Col ml={6} >
                 <h1 className="yo">Santiago González</h1>
-                <p className="informatica">Estudiante de Informatica</p>
-                <p className="contenido">Bienvenidos a mi blog, un espacio dedicado a compartir mi viaje de aprendizaje en el mundo de la programación en kinal.
+                <p className="informatica">Estudiante de Informática</p>
+                <p className="contenido">Bienvenidos a mi blog, un espacio dedicado a compartir mi viaje de aprendizaje en el mundo de la programación en Kinal.
                   <br />
                   <br />
                   Lo más impresionante de cada tarea ha sido una oportunidad para poner en práctica mis habilidades y expandir mi conocimiento en diversas áreas técnicas.
@@ -26,11 +26,13 @@ export const BiografiaCom = ({ handleMaterias }) => {
                   <br />
                   (DAR CLICK EN LOS BOTONES PARA CAMBIAR EL ELEMENTO)
                   <br />
+                  <br />
+                  <br />
                 </p>
                 <div className="button-container">
                   <Button onClick={() => handleMaterias("Taller")}>Taller</Button>
                   <Button onClick={() => handleMaterias("Tecnología")}>Tecnología</Button>
-                  <Button onClick={() => handleMaterias("Practica")}>Practica</Button>
+                  <Button onClick={() => handleMaterias("Practica")}>Práctica</Button>
                 </div>
               </Col>
               {/* right side */}
