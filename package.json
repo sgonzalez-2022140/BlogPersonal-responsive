@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://nombredeusuario.github.io/nombredelrepositorio",
+  "homepage": "https://nombredeusuario.github.io/blog",
 
   "scripts": {
     "dev": "vite",
