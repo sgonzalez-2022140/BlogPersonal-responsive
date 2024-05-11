@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { Container, Row, Col, Card } from 'react-bootstrap';
-import labo1 from "../../img/images.jpg";
+
 //imagenes de cards o acts
 import taller1 from "../../img/taller1.png"
 import adopcion from "../../img/mascotas.png"
@@ -46,7 +46,7 @@ const StyledTaller = styled.div`
 `;
 
 export const ContenidoTaller = () => {
-    const Lab1 = labo1;
+    
     const talleract1 = taller1;
     const tallerAdo = adopcion;
     const empresas2 = empresas;

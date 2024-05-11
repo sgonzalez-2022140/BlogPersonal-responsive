@@ -12,4 +12,5 @@ export const routes = [
         element: <Biografia/>
     }
     //Necesito las rutas de los demas apartados como taller y eso
+    
 ]
